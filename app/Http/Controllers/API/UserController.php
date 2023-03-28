@@ -125,6 +125,7 @@ class UserController extends Controller
                 'success' => false,
                 'message' => 'User is deleted'
                 ], 201);
+                
         } catch (\Exception $e) {
             return response()->json([
                 'success' => false,
